@@ -14,7 +14,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                I'm
+                I'
                    <strong className="main-name"> Yuxiang Kang</strong>
               </h1>
               <h1 style={{ paddingBottom: 15 }} className="heading">
