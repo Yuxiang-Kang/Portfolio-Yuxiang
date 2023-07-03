@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Resume - Yuxiang Kang-4.pdf";
 import pdf_1 from "../../Assets/../Assets/Resume_Sean Kang_6.pdf";
+import pdf_2 from "../../Assets/../Assets/Resume - Yuxiang Kang (2023.06.25) .pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -25,7 +26,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf1}
+            href={pdf_2}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -35,7 +36,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-                  <Document file={pdf1} className="d-flex justify-content-center">
+                  <Document file={pdf_2} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>

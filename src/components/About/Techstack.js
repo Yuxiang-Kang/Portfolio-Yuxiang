@@ -22,77 +22,33 @@ import ansys from "../../Assets/logos/ANSYS-Logo.png"
 import abaqus from "../../Assets/logos/abaqus-Logo.png"
 import comsol from "../../Assets/logos/comsol-Logo.png"
 import matlab from "../../Assets/logos/matlab-Logo.png"
+import py from "../../Assets/logos/Python-logo.png"
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Col xs={4} md={2} className="tech-icons">
+              <img src={py} className="img-fluid" alt="avatar" />
+
+
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
               <img src={SW} className="img-fluid" alt="avatar" />
 
-              <h1 style={{ fontSize: "0.02em"}}>
-                  <br />
-                  <b>SOLIDWORKS</b>
-              </h1>
+      </Col>
+            <Col xs={4} md={2} className="tech-icons">
+              <img src={matlab} className="img-fluid" alt="avatar" />
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
               <img src={CAD} className="img-fluid" alt="avatar" />
-
-              <h1 style={{ fontSize: "0.02em" }}>
-                  <br />
-                  <b>AutoCAD</b>
-              </h1>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-              <img src={creo} className="img-fluid" alt="avatar" />
-
-              <h1 style={{ fontSize: "0.02em" }}>
-                  <br />
-                  <b>CREO</b>
-              </h1>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-              <img src={catia} className="img-fluid" alt="avatar" />
-              <h1 style={{ fontSize: "0.02em" }}>
-                  <br />
-                  <b>CATIA</b>
-              </h1>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tech-icons">
               <img src={ansys} className="img-fluid" alt="avatar" />
-              <h1 style={{ fontSize: "0.02em" }}>
-                  <br />
-                  <b>ANSYS</b>
-              </h1>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-              <img src={abaqus} className="img-fluid" alt="avatar" />
-              <h1 style={{ fontSize: "0.02em" }}>
-                  <br />
-                  <b>Abaqus</b>
-              </h1>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-              <img src={comsol} className="img-fluid" alt="avatar" />
-              <h1 style={{ fontSize: "0.02em" }}>
-                  <br />
-                  <b>COMSOL</b>
-              </h1>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-
-              <CgCPlusPlus />
 
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-              <img src={matlab} className="img-fluid" alt="avatar" />
-              <h1 style={{ fontSize: "0.02em" }}>
-                  <br />
-                  <b>Matlab</b>
-              </h1>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-              <DiPython />
-      </Col>
+
+
     </Row>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-projects.png";
+import homeLogo from "../../Assets/home-projects_2.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -26,7 +26,7 @@ function Home() {
                           <br />
                           <br />
               <h1 style={{ paddingBottom: 15 }} className="heading">               
-                   <strong className="main-name">Mechanical Design  · Robotics</strong>
+                   <strong className="main-name">Robotics · Mechanical Engineering</strong>
               </h1>
               
      

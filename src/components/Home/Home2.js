@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-//import myImg from "../../Assets/avatar.svg";
-import myImg from "../../Assets/Me.png";
+
+import myImg from "../../Assets/me_2.jpg";
 import Tilt from "react-parallax-tilt";
 import {
-
+    AiFillGithub,
     AiFillInstagram,
     AiOutlineMail,
 } from "react-icons/ai";
@@ -20,22 +20,20 @@ function Home2() {
               GET  TO  KNOW  ME
             </h1>
             <p className="home-about-body">
-                          <b className="purple">Mechanical Engineering </b>
+                          <b className="purple">Robotics </b>
               is something I love and am good at.
               <br />
               <br />More specifically, I can do well in
               
-                              <b className="purple"> Mechanical Design, Structure and Robotics. </b>
+                              <b className="purple"> SLAM, Motion planning and Mechanical Design. </b>
               
               <br />
               <br />
-              I also apply 
+              I enjoy building up a robotic system with both
               
-              <b className="purple"> Finite Element Analysis</b>, <b className="purple">Manufacturing Process Design </b>
-              and
-                              <b className="purple"> Mechatronics </b>
+              <b className="purple"> Software</b> and <b className="purple">Hardware </b>
                           
-                          in my design process.
+                          parts.
                           <br />
                           <br />
                           As a
@@ -49,8 +47,10 @@ function Home2() {
                           , I'm spending my time on
                           <b className="purple"> Robotics</b>
                           ,
-                          <b className="purple"> Sensing </b>
-                          and other techniques that can benefit mechanical devices.
+                          <b className="purple"> SLAM </b>
+                          ,
+                          <b className="purple"> Learning </b>
+                          and other techniques that can benefit robotic devices.
 
 
 
@@ -97,13 +97,14 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                                  href="https://www.instagram.com/ins1912923753"
+                                  href="https://github.com/Yuxiang-Kang"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiFillGithub />
                 </a>
+
                           </li>
 
             </ul>

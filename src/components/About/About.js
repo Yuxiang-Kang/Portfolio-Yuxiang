@@ -32,27 +32,27 @@ function About() {
 
                           Hey there! I'm
                           <b className="purple">&nbsp;Yuxiang Kang</b>
-                          , a Mechanical Engineer. I've obtained my Bachelor's degree in
-                          <b className="purple">&nbsp;Mechanical Engineering&nbsp;</b>
+                          , a Robotics and Mechanical Engineer. I've obtained my Bachelor's degree in Mechanical Engineering
                           from
-                          <b className="purple"> Tsinghua University</b>
-                          <br/>
+                          <b className="purple"> Tsinghua University </b>
+
                           and am working on an Mechanical Engineering
                           <b className="purple">&nbsp;Master's degree</b> in
                           <b className="purple">&nbsp;UC San Diego.</b>
                           <br />
                           <br />
-                          In school I've
-                          <b className="purple">&nbsp;designed and manufactured </b>
-                          several mechanical devices either for commercial or competition use.
-                          I've also worked as a mechanical engineer during an internship in
+                          In college I've designed and manufactured several
+                          <b className="purple">&nbsp;robotic systems </b>
+                           and wrote control software for
+                           <b className="purple">&nbsp;SLAM and motion planning</b>
+                          .I've also worked as a mechanical engineer during internships in
                           <b className="purple"> NAURA Technology Group.</b>
+                          and
+                          <b className="purple"> Beijing Gas Co., Ltd.</b>
                           <br />
                           <br />
-                          I'm now looking for a grad position about mechanical design, finite element analysis(FEA), tolerence analysis or robotics.
-                          Feel free to
-                          <b className="purple"> contact </b>
-                          me!
+                          I'm now looking for a grad position about robotics engineering or mechanical engineering.
+                          Feel free to contact me!
                           
 
 
